@@ -15,7 +15,7 @@ function stringChop(str, size) {
 		let subStr = str.substring(idx);
 		ans.push(subStr);
 	}
-	// return ans;
+	return ans;
 }
 
 // Do not change the code below
