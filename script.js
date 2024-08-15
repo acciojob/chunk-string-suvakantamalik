@@ -1,15 +1,15 @@
 function stringChop(str, size) {
   // your code here
-	let ans = {};
+	let ans = [];
 	let n = str.length;
 	let idx=0;
 	while(idx+size < n){
-		let subStr = str.subString(idx,size+idx);
+		let subStr = str.substring(idx,size+idx);
 		ans.push(subStr);
 		idx += size;
 	}
-	if(idx >= n){
-		let subStr = str.subString(idx);
+	if(idx < n){
+		let subStr = str.substring(idx);
 		ans.push(subStr);
 	}
 	return ans;
