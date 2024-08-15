@@ -1,7 +1,7 @@
 function stringChop(str, size) {
   // your code here
 	let n = str.length;
-	if(str.isEmpty()) return null;
+	// if(str.isEmpty()) return null;
 	let ans = [];
 	
 	let idx=0;
