@@ -5,7 +5,7 @@ function stringChop(str, size) {
 	let ans = [];
 	let n = str.length;
 	let idx=0;
-	while(idx+size < n){
+	while(idx+size <= n){
 		let subStr = str.substring(idx,size+idx);
 		ans.push(subStr);
 		idx += size;
