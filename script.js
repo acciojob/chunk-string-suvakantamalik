@@ -1,9 +1,9 @@
 function stringChop(str, size) {
   // your code here
-	let n = str.length;
-	// if(str.isEmpty()) return null;
-	let ans = [];
 	
+	if(str === "") return null;
+	let ans = [];
+	let n = str.length;
 	let idx=0;
 	while(idx+size < n){
 		let subStr = str.substring(idx,size+idx);
