@@ -2,6 +2,7 @@ function stringChop(str, size) {
   // your code here
 	
 	if(str === "") return null;
+	size = parseInt(size, 10); // Convert size to an integer
 	let ans = [];
 	let n = str.length;
 	let idx=0;
